@@ -1,22 +1,80 @@
+:root {
+  --secundary-color: #7b7474;
+}
 body {
   font-family: "Inter", sans-serif;
-  text-align: center;
-  margin-top: 100px;
 }
 
 h1 {
   font-weight: bold;
   font-size: 64px;
+  text-align: center;
 }
 
-.hero h2,
+h3 {
+  margin-top: 100px;
+}
+
+.hero p {
+  margin-bottom: 60px;
+}
+
+.hero h3,
 p {
   font-size: 24px;
   font-weight: 300;
-  color: #404040;
+  color: var(--secundary-color);
+  text-align: center;
 }
 
 .hero img {
-  margin-top: 100px;
+  margin: 0 auto;
   max-width: 60%;
+  display: block;
+}
+
+.about-me {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 60%;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 60px;
+  margin-top: 100px;
+}
+
+.about-me p {
+  font-size: 18px;
+  margin-top: 50px;
+  margin-left: 0;
+  max-width: 100%;
+  text-align: left;
+}
+
+.work-inquiry {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 60%;
+  margin-bottom: 100px;
+}
+
+.work-inquiry h4 {
+  font-size: 24px;
+  font-weight: 300;
+  color: var(--secundary-color);
+}
+
+.work-inquiry button.btn {
+  margin-top: 145px;
+  padding: 10px 70px;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 60px;
+  font-size: 14px;
+  opacity: 60%;
+  color: var(--secundary-color);
 }
